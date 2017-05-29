@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import { Root } from './components/Root';
 
-import configureStore from '/store/configureStore';
+import configureStore from './store/configureStore';
 // require('./favicon.ico');
 import './styles/styles.scss';
 
