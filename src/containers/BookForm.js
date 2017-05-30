@@ -9,7 +9,7 @@ console.log('in BookForm');
 class BookForm extends Component {
   render () {
     return (
-      <form>
+      <form className="book-form">
         <Name />
       </form>
     );

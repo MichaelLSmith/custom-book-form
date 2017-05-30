@@ -10,6 +10,7 @@ let component;
 describe('Book Form renders a form and maybe children', () => {
 	it('renders a form with class book-form', () => {
 		component = shallow(<BookForm />);
+		expect(component.)
 	});
 });
 
