@@ -1,13 +1,14 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import { Root } from './components/Root';
+import Root from './components/Root';
 
 import configureStore from './store/configureStore';
 // require('./favicon.ico');
 import './styles/styles.scss';
 
-const store = configureStore();
+const initialState = {};
+const store = configureStore(initialState);
 
 render(
   <AppContainer>

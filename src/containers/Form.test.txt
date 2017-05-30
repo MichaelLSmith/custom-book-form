@@ -1,0 +1,5 @@
+import React from 'react'
+
+
+// we care that form renders all its children
+// we will care how it works with redux-form and submittal

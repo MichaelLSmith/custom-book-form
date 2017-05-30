@@ -4,6 +4,7 @@ import thunk from 'redux-thunk';
 import rootReducer from '../reducers';
 
 function configureStoreProd(initialState) {
+  console.log(initialState);
   const middlewares = [
     // Add other middleware on this line...
 
