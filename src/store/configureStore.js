@@ -3,6 +3,8 @@ import reduxImmutableStateInvariant from 'redux-immutable-state-invariant';
 import thunk from 'redux-thunk';
 import rootReducer from '../reducers';
 
+console.log(rootReducer);
+
 function configureStoreProd(initialState) {
   console.log(initialState);
   const middlewares = [
@@ -20,6 +22,7 @@ function configureStoreProd(initialState) {
 }
 
 function configureStoreDev(initialState) {
+  console.log('initial state in configureStoreDev', initialState);
   const middlewares = [
     // Add other middleware on this line...
 

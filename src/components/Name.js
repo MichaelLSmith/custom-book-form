@@ -5,7 +5,7 @@ const Name = (props) => {
   // console.log('props in Name', props);
 
 const renderField = (field) => {
-    console.log('field in renderField()', field);
+    // console.log('field in renderField()', field);
     return (
       <div className="input-row">
         <label>{field.label}</label>

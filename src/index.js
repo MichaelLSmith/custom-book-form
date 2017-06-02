@@ -9,6 +9,7 @@ import './styles/styles.scss';
 
 const initialState = {};
 const store = configureStore(initialState);
+console.log(store.getState());
 
 render(
   <AppContainer>

@@ -1,11 +1,10 @@
-// UI Test == Remember this is instead of rendering it to the DOM. So the test
-// needs to see what will be rendered to the DOM. we care that it renders 3
-// groups of a label and an input. we care that each label has correct text
+/*UI Test == Remember this is instead of rendering it to the DOM. So the test 
+needs to see what will be rendered to the DOM: 
+   1. we care that it renders 3 groups of a label and an input. we care that each label has correct text 
+   2. we care that text appears when user types text into inputs. 
 
-
-// REDUX/DATA Test we care that each field component returns data correctly
-// named and formated.
-
+REDUX/DATA Test we care that each field component returns data correctly 
+named and formated.*/
 
 import React from 'react';
 import Name from './Name';

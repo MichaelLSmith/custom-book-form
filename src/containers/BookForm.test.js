@@ -1,6 +1,13 @@
-// we care that form renders all its children
-// we will care how it works with redux-form and submittal
-
+/* 
+we care that form renders all its children 
+we care that two buttons are rendered: 
+  1. Clear 
+  2. Submit 
+when "clear" button is pressed, all data is cleared from children 
+when "submit" button is pressed, all data is cleared from children && data is saved to store through redux form 
+ 
+we will care how it works with redux-form and submittal 
+*/ 
 import React from 'react';
 import { shallow } from 'enzyme';
 import BookForm from './BookForm';
