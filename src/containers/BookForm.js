@@ -4,9 +4,7 @@ import { reduxForm } from 'redux-form';
 import { connect } from 'react-redux';
 import { createBook } from '../actions';
 
-console.log('in BookForm');
-
-class BookForm extends Component {
+export class BookForm extends Component {
   render () {
     return (
       <form className="book-form">
