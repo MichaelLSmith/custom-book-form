@@ -1,5 +1,6 @@
 import React from 'react';
 import { Field } from 'redux-form';
+import { validate } from '../utils/validation';
 
 const Name = (props) => {
   // console.log('props in Name', props);
@@ -23,3 +24,9 @@ const renderField = (field) => {
   );
 };
 export default Name;
+
+
+/*Validation:
+  1. Every input has data
+  2. Email is a valid email
+*/
