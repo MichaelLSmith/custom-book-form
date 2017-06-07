@@ -1,8 +1,10 @@
-export const CREATE_BOOK = 'create_book';
+//actions
+export const CREATE_ORDER = 'create_order';
 
-export function createBook (values) {
+export function createOrder (values) {
+  console.log('values in action creator', values);
   return {
-    type: CREATE_BOOK,
+    type: CREATE_ORDER,
     payload: values
   };
 }

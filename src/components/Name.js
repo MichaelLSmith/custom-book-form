@@ -6,7 +6,7 @@ const Name = () => {
 
 const renderField = ( field ) => {
   // {input, label, type, meta: { touched, error } }
-    console.log(field);
+    // console.log(field);
     return (
       <div className="input-row">
         <label>{field.label}</label>
