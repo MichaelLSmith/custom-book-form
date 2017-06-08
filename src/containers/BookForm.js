@@ -38,4 +38,4 @@ export default reduxForm({
 );
 
 // form will only render children form components
-// it will probably handle the app state connected to redux
+// it will handle the app state connected to redux

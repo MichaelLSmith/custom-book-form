@@ -7,8 +7,8 @@ import configureStore from './store/configureStore';
 // require('./favicon.ico');
 import './styles/styles.scss';
 
-const initialState = {};
-const store = configureStore(initialState);
+const store = configureStore();
+window.store = store;//makes getstate() available as window.store.getState() in browser console
 console.log(store.getState());
 
 render(

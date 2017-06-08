@@ -4,17 +4,17 @@ import { Field } from 'redux-form';
 const Name = () => {
   // console.log('props in Name', props);
 
-const renderField = ( field ) => {
-  // {input, label, type, meta: { touched, error } }
-    // console.log(field);
-    return (
-      <div className="input-row">
-        <label>{field.label}</label>
-        <input {...field.input} type={field.type}/>
-        <div className="text-help">{field.meta.touched ? field.meta.error : ''}</div>
-      </div>
-    );
-  };
+  const renderField = ( field ) => {
+    // {input, label, type, meta: { touched, error } }
+      // console.log(field);
+      return (
+        <div className="input-row">
+          <label>{field.label}</label>
+          <input {...field.input} type={field.type}/>
+          <div className="text-help">{field.meta.touched ? field.meta.error : ''}</div>
+        </div>
+      );
+    };
 
   return (
       <div className="Name">
